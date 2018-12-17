@@ -1,0 +1,13 @@
+{
+    "name": "mingwei.peng/firestore-php-laravel",
+    "description": "Laravel wrapper of morrislaptop/firestore-php",
+    "type": "laravel-pakcage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mingwei Peng",
+            "email": "mingw.peng@gmail.com"
+        }
+    ],
+    "require": {}
+}
