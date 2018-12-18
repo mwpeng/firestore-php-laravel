@@ -30,5 +30,8 @@
         },
         "files": [
         ]
+    },
+    "require-dev": {
+        "laravel/framework": "^5.7"
     }
 }
