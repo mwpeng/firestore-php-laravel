@@ -23,5 +23,12 @@
             "aliases": {
             }
         }
+    },
+    "autoload": {
+        "psr-4": {
+            "Mwpeng\\FirestorePhpLaravel\\": "src/"
+        },
+        "files": [
+        ]
     }
 }
