@@ -1,5 +1,5 @@
 {
-    "name": "mingwei.peng/firestore-php-laravel",
+    "name": "mwpeng/firestore-php-laravel",
     "description": "Laravel wrapper of morrislaptop/firestore-php",
     "type": "laravel-pakcage",
     "license": "MIT",
@@ -9,5 +9,17 @@
             "email": "mingw.peng@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/support": "^5.7"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mwpeng\\FirestorePhpLaravel\\ServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
 }
