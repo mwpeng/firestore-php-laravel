@@ -1,5 +1,5 @@
 <?php
-namespace Mwpeng\Debugbar;
+namespace Mwpeng\FirestorePhpLaravel;
 
 use Kreait\Firebase\ServiceAccount;
 use Morrislaptop\Firestore\Factory;
