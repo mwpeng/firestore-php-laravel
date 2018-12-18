@@ -1,6 +1,7 @@
 {
     "name": "mwpeng/firestore-php-laravel",
     "description": "Laravel wrapper of morrislaptop/firestore-php",
+    "keywords": ["firestore", "laravel"],
     "type": "laravel-pakcage",
     "license": "MIT",
     "authors": [
