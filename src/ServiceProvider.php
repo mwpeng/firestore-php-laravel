@@ -15,9 +15,9 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function boot()
     {
-//        $this->publishes([
-//            __DIR__.'/path/to/config/courier.php' => config_path('courier.php'),
-//        ]);
+        $this->publishes([
+            __DIR__.'/../config/firestore-php-laravel.php' => config_path('firestore-php-laravel.php'),
+        ]);
     }
 
 
