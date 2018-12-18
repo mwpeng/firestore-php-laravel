@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "illuminate/support": "^5.7"
+        "illuminate/support": "^5.7",
+        "morrislaptop/firestore-php": "^2.2"
     },
 
     "extra": {
