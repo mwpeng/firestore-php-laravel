@@ -21,6 +21,7 @@
                 "Mwpeng\\FirestorePhpLaravel\\ServiceProvider"
             ],
             "aliases": {
+                "Firestore": "Mwpeng\\FirestorePhpLaravel\\Facade"
             }
         }
     },
