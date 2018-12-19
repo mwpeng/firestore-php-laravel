@@ -24,7 +24,7 @@ Config Path to the Firebase JSON key file.
 
 ## Usage
 
-Inject firestore to class constructor. 
+### 1. Inject firestore to class constructor. 
 
 ```php
 <?php
@@ -44,8 +44,18 @@ class ToAccessFirestore {
     public function __construct(Firestore $firestore)
     {
         $this->firestore = $firestore;
+        $this->firestore->collection("PathToCollection");
     }
     
 }
+
+```
+
+### 2. Using Firestore Facade. 
+```php
+<?php
+use Mwpeng\FirestorePhpLaravel\Facades\Firestore;
+
+Firestore::collection("PathToCollection");
 
 ```
