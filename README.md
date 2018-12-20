@@ -1,5 +1,5 @@
 # firestore-php-laravel
-Laravel wrapper of [morrislaptop/firestore-php](https://github.com/morrislaptop/firestore-php).
+Laravel wrapper of [morrislaptop/firestore-php].
 
 
 ## Installation
@@ -22,7 +22,8 @@ Config Path to the Firebase JSON key file.
 'firebase-credentials' => env('FIREBASE_CREDENTIALS', null),
 ```
 
-## Usage
+## Usage: 
+Check [morrislaptop/firestore-php] for Methods available. 
 
 ### 1. Inject firestore to class constructor. 
 
@@ -59,3 +60,6 @@ use Mwpeng\FirestorePhpLaravel\Facades\Firestore;
 Firestore::collection("PathToCollection");
 
 ```
+
+
+[morrislaptop/firestore-php]:https://github.com/morrislaptop/firestore-php
