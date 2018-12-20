@@ -1,5 +1,5 @@
 # firestore-php-laravel
-laravel wrapper of morrislaptop/firestore-php
+Laravel wrapper of [morrislaptop/firestore-php](https://github.com/morrislaptop/firestore-php).
 
 
 ## Installation
